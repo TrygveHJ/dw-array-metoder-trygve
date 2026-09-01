@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // --- Løs opgaverne herunder --- 
 
+    // opgave 1
     let newNumbers = [45, 26, 55, 48, 32, 21]
     console.log("Opgave 1", newNumbers);
 
