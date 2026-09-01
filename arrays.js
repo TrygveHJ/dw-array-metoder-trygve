@@ -37,8 +37,12 @@ document.addEventListener("DOMContentLoaded", function () {
     let newNewNumbers = numbersArray.map((number) => number * 3)
     console.log("Opgave 5", newNewNumbers);
 
-    //opgave 6
+    // opgave 6
     console.log("Opgave 6", dogsArray.join(""));
+
+    // opgave 7
+    console.log("Opgave 7a", fruitsArray.indexOf("Mango"));
+    console.log("Opgave 7a", fruitsArray.indexOf("Blåbær"));
 
 
 }) // ends DOMContentLoaded
