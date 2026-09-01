@@ -33,4 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Opgave 4a", catCheck("Bagheera"))
     console.log("Opgave 4b", catCheck("Salem"))
 
+    // opgave 5
+    let newNewNumbers = numbersArray.map((number) => number * 3)
+    console.log("Opgave 5", newNewNumbers);
+
 }) // ends DOMContentLoaded
