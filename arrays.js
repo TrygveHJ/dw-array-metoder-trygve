@@ -13,9 +13,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     console.log("Opgave 1", newNumbers);
 
-    //opgave 2
+    // opgave 2
     catsArray.push("Sniffles")
     console.log("Opgave 2", catsArray);
 
+    // opgave 3
+    // .includes
+    // if (dogsArray.includes("Trixie")) {
+    // }
+    console.log("Opgave 3a", dogsArray.includes("Trixie"))
+    console.log("Opgave 3b", dogsArray.includes("Baxter"))
 
 }) // ends DOMContentLoaded
