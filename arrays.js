@@ -18,10 +18,19 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Opgave 2", catsArray);
 
     // opgave 3
-    // .includes
-    // if (dogsArray.includes("Trixie")) {
-    // }
     console.log("Opgave 3a", dogsArray.includes("Trixie"))
     console.log("Opgave 3b", dogsArray.includes("Baxter"))
+
+    //opgave 4
+    function catCheck(cat) {
+        if (catsArray.includes(cat)) {
+            return true
+        }
+        else {
+            return "undefined"
+        }
+    }
+    console.log("Opgave 4a", catCheck("Bagheera"))
+    console.log("Opgave 4b", catCheck("Salem"))
 
 }) // ends DOMContentLoaded
